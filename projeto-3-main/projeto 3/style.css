@@ -1,0 +1,12 @@
+:root{
+    --cor-da-letra: black;
+    --cor-de-fundo:rgba(134, 18, 18, 0.87);
+    --fundo-senha:rgba(134, 18, 18, 0.87);
+    --fundo-texto:black;
+    --borda: rgb(0, 0, 0);
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+}
