@@ -18,6 +18,28 @@ body{
 }
 
 .titulo-princupal{
-    font-size: 20px;
+    font-size: 130px;
     font-family: var(--fonte2);
+}
+
+.titulo-secundario{
+    font-size: 50px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.conteudo-senha{
+    margin-top: 100px;
+    background: var(--fundo-senha) ;
+    padding: 50px;
+}
+
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--letra);
+    width: 50%;
 }
