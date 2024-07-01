@@ -5,7 +5,7 @@
     --cor-da-letra: black;
     --cor-de-fundo:rgba(134, 18, 18, 0.87);
     --fundo-senha:rgba(134, 18, 18, 0.87);
-    --fundo-texto:black;
+    --fundo-texto:rgb(148, 17, 17);
     --borda: rgb(0, 0, 0);
     --fonte: "PT Serif", serif;
     --fonte2:"EB Garamond", serif;
@@ -50,4 +50,20 @@ body{
 
 #campo-senha:focus{
     outline: none;
+}
+
+.conteudo{
+    width: 300px; 
+    margin: 0 auto;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 6opx;
+    padding: 22px;
+}
+
+.parametro-titulo{
+    font-size: 28px;
 }
