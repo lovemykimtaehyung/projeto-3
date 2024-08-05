@@ -63,19 +63,33 @@ body{
     margin-top: 6opx;
     padding: 22px;
 }
-
 .parametro-titulo{
     font-size: 28px;
 }
-
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
 }
-
 .parametro-coluna-senha{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+.parametro-senha-botoes{
+display: flex;
+justify-content: center;
+}
+.parametro-senha-texto{
+    padding: 24px; ;
+    border-top: 2px solid var (--borda);
+    border-bottom: 2px  solid var(--borda);
+    margin: 0mm;
+}
+.parametro-senha-botao{
 
+    border-top: 2px solid var (--cor-de-fundo);
+    border-bottom: 2px solid var (--cor-de-fundo);
+    padding: 24px;
+
+    cursor: pointer;
+}
