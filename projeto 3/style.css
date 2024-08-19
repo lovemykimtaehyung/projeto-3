@@ -98,3 +98,15 @@ label{
 
 
 }
+.barra{
+    background-color: var(--fundo-senha);
+    height: 60px;
+    width: 100%;
+}
+.fraca{
+    height: 60px;
+    width: 5%;
+    background-color: rosybrown;
+    position: relative;
+    bottom: 60px;
+}
