@@ -103,10 +103,28 @@ label{
     height: 60px;
     width: 100%;
 }
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
 .fraca{
-    height: 60px;
-    width: 5%;
-    background-color: rosybrown;
+    height: 100px;
+    width: 20%%;
+    background-color:white;
     position: relative;
-    bottom: 60px;
+    bottom: 100px;
+}
+.media{
+    height: 100px;
+    width: 50%;
+    background-color:gray;
+    position: relative;
+    bottom: 100px;
+}
+.forte{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 100px;
 }
